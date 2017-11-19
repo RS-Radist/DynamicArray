@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		881744941F59D45B00A35BF7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 881744931F59D45B00A35BF7 /* main.cpp */; };
-		FAE20B7F1FA3C338000BCA1A /* ClassDynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE20B7D1FA3C338000BCA1A /* ClassDynamicArray.cpp */; };
-		FAE20B811FA3C8B4000BCA1A /* UniTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAE20B801FA3C8B4000BCA1A /* UniTest.cpp */; };
+		8879B50F1FB89FD900C807BF /* ClassDynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8879B5091FB89FD900C807BF /* ClassDynamicArray.cpp */; };
+		8879B5101FB89FD900C807BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8879B50C1FB89FD900C807BF /* main.cpp */; };
+		8879B5111FB89FD900C807BF /* UniTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8879B50D1FB89FD900C807BF /* UniTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +26,12 @@
 
 /* Begin PBXFileReference section */
 		881744901F59D45B00A35BF7 /* Задание №6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Задание №6"; sourceTree = BUILT_PRODUCTS_DIR; };
-		881744931F59D45B00A35BF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; wrapsLines = 1; };
-		FAE20B7D1FA3C338000BCA1A /* ClassDynamicArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClassDynamicArray.cpp; sourceTree = "<group>"; };
-		FAE20B7E1FA3C338000BCA1A /* ClassDynamicArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClassDynamicArray.hpp; sourceTree = "<group>"; };
-		FAE20B801FA3C8B4000BCA1A /* UniTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UniTest.cpp; sourceTree = "<group>"; };
-		FAE20B841FA3CB9D000BCA1A /* hpp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hpp.hpp; sourceTree = "<group>"; };
+		8879B5091FB89FD900C807BF /* ClassDynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ClassDynamicArray.cpp; path = Dyn6/ClassDynamicArray.cpp; sourceTree = SOURCE_ROOT; };
+		8879B50A1FB89FD900C807BF /* ClassDynamicArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ClassDynamicArray.hpp; path = Dyn6/ClassDynamicArray.hpp; sourceTree = SOURCE_ROOT; };
+		8879B50B1FB89FD900C807BF /* hpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = hpp.hpp; path = Dyn6/hpp.hpp; sourceTree = SOURCE_ROOT; };
+		8879B50C1FB89FD900C807BF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Dyn6/main.cpp; sourceTree = SOURCE_ROOT; };
+		8879B50D1FB89FD900C807BF /* UniTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UniTest.cpp; path = Dyn6/UniTest.cpp; sourceTree = SOURCE_ROOT; };
+		8879B50E1FB89FD900C807BF /* UniTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UniTest.h; path = Dyn6/UniTest.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +64,12 @@
 		881744921F59D45B00A35BF7 /* Задание №6 */ = {
 			isa = PBXGroup;
 			children = (
-				881744931F59D45B00A35BF7 /* main.cpp */,
-				FAE20B841FA3CB9D000BCA1A /* hpp.hpp */,
-				FAE20B801FA3C8B4000BCA1A /* UniTest.cpp */,
-				FAE20B7D1FA3C338000BCA1A /* ClassDynamicArray.cpp */,
-				FAE20B7E1FA3C338000BCA1A /* ClassDynamicArray.hpp */,
+				8879B5091FB89FD900C807BF /* ClassDynamicArray.cpp */,
+				8879B50A1FB89FD900C807BF /* ClassDynamicArray.hpp */,
+				8879B50B1FB89FD900C807BF /* hpp.hpp */,
+				8879B50C1FB89FD900C807BF /* main.cpp */,
+				8879B50D1FB89FD900C807BF /* UniTest.cpp */,
+				8879B50E1FB89FD900C807BF /* UniTest.h */,
 			);
 			path = "Задание №6";
 			sourceTree = "<group>";
@@ -106,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8817448B1F59D45B00A35BF7 /* Build configuration list for PBXProject "Задание №6" */;
+			buildConfigurationList = 8817448B1F59D45B00A35BF7 /* Build configuration list for PBXProject "Dyn6" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,9 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE20B811FA3C8B4000BCA1A /* UniTest.cpp in Sources */,
-				FAE20B7F1FA3C338000BCA1A /* ClassDynamicArray.cpp in Sources */,
-				881744941F59D45B00A35BF7 /* main.cpp in Sources */,
+				8879B5111FB89FD900C807BF /* UniTest.cpp in Sources */,
+				8879B5101FB89FD900C807BF /* main.cpp in Sources */,
+				8879B50F1FB89FD900C807BF /* ClassDynamicArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +237,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8817448B1F59D45B00A35BF7 /* Build configuration list for PBXProject "Задание №6" */ = {
+		8817448B1F59D45B00A35BF7 /* Build configuration list for PBXProject "Dyn6" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				881744951F59D45B00A35BF7 /* Debug */,
